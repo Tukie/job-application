@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap");
+
+* {
+  font-family: Noto Sans Thai;
+  transition: all .5s;
+}
+
+:root {
+  --bg_nav: "F8F9FA";
+}
+
+.text-m1{
+  color: #536A7E;
+}
+
+.bg-m1{
+  background-color: #536A7E;
+  color: aliceblue;
+}
+.bg-m2{
+  background-color: #d8dee4;
+  
+}
