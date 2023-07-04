@@ -1,5 +1,5 @@
 <template>
-    <nav class=" position-relative">
+    <nav class=" position-relative d-sm-block d-none">
         <div class="d-flex flex-column justify-content-between p-4 nav_c position-sticky sticky-top "
             style="background-color: F8F9FA;">
 
