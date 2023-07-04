@@ -6,6 +6,7 @@ import step3 from './components/check_page/step3.vue';
 import step4 from './components/check_page/step4.vue';
 import Detail from './components/check_page/Detail.vue';
 import alert_checl from './components/check_page/alert_checl.vue';
+import personal from './components/check_page/personal.vue';
 </script>
 
 <template>
@@ -39,6 +40,9 @@ import alert_checl from './components/check_page/alert_checl.vue';
         <div class="bg-m2 rounded-3 d-flex justify-content-center align-items-center w-100 py-4">
             <alert_checl Status="warning" Message_detail="โปรดตรวจสอบข้อมูลอีกครั้ง" />
         </div>
+
+        <!-- personal detail -->
+        <personal status="error"/>
     </div>
 </template>
 
