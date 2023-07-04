@@ -7,16 +7,14 @@ import sec_progress from './components/home_page/sec_progress.vue'
 
 <template>
     <!-- Article -->
-    <div class="container py-4 px-5">
-        <Slide />
-        <headTItle />
-        <div class="mx-5">
-            <news news_date="2022 - 07 - 03" isnew="yes" news_title="ประกาศรายชื่อผู้สมัคร" />
-            <news news_date="2022 - 07 - 03" isnew="no" news_title="แก้ไขข้อมูลเพิ่มเติม" />
-            <news news_date="2022 - 07 - 03" isnew="yes" news_title="Lorem" />
-        </div>
-        <sec_progress />
+    <Slide />
+    <headTItle />
+    <div class="mx-5">
+        <news news_date="2022 - 07 - 03" isnew="yes" news_title="ประกาศรายชื่อผู้สมัคร" />
+        <news news_date="2022 - 07 - 03" isnew="no" news_title="แก้ไขข้อมูลเพิ่มเติม" />
+        <news news_date="2022 - 07 - 03" isnew="yes" news_title="Lorem" />
     </div>
+    <sec_progress />
 </template>
 
 <style scoped></style>

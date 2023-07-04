@@ -4,13 +4,13 @@ import Sec_form from './components/regis_page/Sec_form.vue';
 </script>
 
 <template>
-    <div class="container py-4 px-5">
-        <!-- title -->
-        <regisPage />
+    <!-- title -->
+    <regisPage />
 
-        <!-- form -->
-            <Sec_form />
-    </div>
+    <!-- form -->
+    <KeepAlive>
+        <Sec_form />
+    </KeepAlive>
 </template>
 
 <script>

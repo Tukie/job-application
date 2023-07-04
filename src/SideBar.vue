@@ -1,10 +1,12 @@
 <template>
-    <nav class=" position-relative d-sm-block d-none">
-        <div class="d-flex flex-column justify-content-between p-4 nav_c position-sticky sticky-top "
+    <nav class=" position-relative d-sm-block d-none shadow">
+        <div class="d-flex flex-column text-m1 justify-content-between p-4 nav_c position-sticky sticky-top "
             style="background-color: F8F9FA;">
 
             <!-- Logo -->
-            <h1 class="fw-bold">LOGO</h1>
+            <h3 class="fw-bold "><img src="../public/favicon.png" alt="LOGO" class="img-fluid me-2"
+                    style="width: 50px;">สมัครสอบ
+            </h3>
 
             <!-- mainmenu -->
             <div class="mainmenu">
@@ -25,7 +27,7 @@
                     </div>
                 </router-link>
 
-                <router-link to="/page2" class="nav-link rounded-2">
+                <router-link to="/register" class="nav-link rounded-2">
                     <div class="d-flex">
                         <div class="d-block item_">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-list"
@@ -46,7 +48,7 @@
                     </div>
                 </router-link>
 
-                <router-link to="/page3" class="nav-link rounded-2">
+                <router-link to="/check" class="nav-link rounded-2">
                     <div class="d-flex">
                         <div class="d-block item_">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-check"
@@ -64,7 +66,7 @@
                     </div>
                 </router-link>
 
-                <router-link to="/page4" class="nav-link rounded-2">
+                <router-link to="/serch" class="nav-link rounded-2">
                     <div class="d-flex">
                         <div class="d-block item_">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24"
@@ -79,7 +81,7 @@
                     </div>
                 </router-link>
 
-                <router-link to="/page5" class="nav-link rounded-2">
+                <router-link to="/serchMap" class="nav-link rounded-2">
                     <div class="d-flex">
                         <div class="d-block item_">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-search"
@@ -97,7 +99,7 @@
                     </div>
                 </router-link>
 
-                <router-link to="/page6" class="nav-link rounded-2">
+                <router-link to="/print" class="nav-link rounded-2">
                     <div class="d-flex">
                         <div class="d-block item_">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-printer" width="24"
@@ -136,7 +138,7 @@
                         คู่มือการสมัครสอบ
                     </div>
                 </router-link>
-                <router-link to="" class="nav-link rounded-2">
+                <router-link to="/QA" class="nav-link rounded-2">
                     <div class="d-flex">
                         <div class="d-block item_">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-question-mark"
@@ -226,7 +228,7 @@ h1 {
 
 .bg-contact {
     background: rgb(83, 106, 126);
-    background: linear-gradient(0deg, rgba(83, 106, 126, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(0deg, rgb(138, 158, 175) 0%, rgba(255, 255, 255, 1) 100%);
 }
 </style>
   

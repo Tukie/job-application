@@ -8,18 +8,18 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner rounded-4">
             <div class="carousel-item active">
                 <img src="https://images.unsplash.com/photo-1586282391129-76a6df230234?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-                    class="d-block w-100 rounded-4" alt="...">
+                    class="d-block w-100 " alt="slide1" loading="lazy">
             </div>
             <div class="carousel-item">
                 <img src="https://images.unsplash.com/photo-1417733403748-83bbc7c05140?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-                    class="d-block w-100 rounded-4" alt="...">
+                    class="d-block w-100 " alt="slide2" loading="lazy">
             </div>
             <div class="carousel-item">
                 <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-                    class="d-block w-100 rounded-4" alt="...">
+                    class="d-block w-100 " alt="slide3" loading="lazy">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -40,7 +40,7 @@ export default {};
 </script>
 
 <style scoped>
-img{
+img {
     height: 300px;
     object-fit: cover;
     object-position: center;

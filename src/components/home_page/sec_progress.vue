@@ -17,7 +17,7 @@
 
 
     <!-- progress -->
-    <div class="row">
+    <div class="row text-center">
         <div class="col-sm-3 mb-2">
             <div class="mt-4 rounded-5 bg-m1 flex-column d-flex align-items-center justify-content-center"
                 style="height: 250px;">
