@@ -199,7 +199,7 @@ export default {
 }
 
 .nav_c {
-    height: 100vh;
+    height: 100dvh;
     width: 250px;
     background-color: var(--bg_nav);
 }
